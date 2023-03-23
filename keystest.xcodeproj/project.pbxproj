@@ -15,6 +15,7 @@
 		D7C9AB3229CC5C9400BA3406 /* keystestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9AB3129CC5C9400BA3406 /* keystestUITests.swift */; };
 		D7C9AB3429CC5C9400BA3406 /* keystestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9AB3329CC5C9400BA3406 /* keystestUITestsLaunchTests.swift */; };
 		D7C9AB4429CC5F8600BA3406 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D7C9AB4329CC5F8600BA3406 /* .gitignore */; };
+		D7C9AB4629CC606300BA3406 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9AB4529CC606300BA3406 /* ApiKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		D7C9AB3129CC5C9400BA3406 /* keystestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keystestUITests.swift; sourceTree = "<group>"; };
 		D7C9AB3329CC5C9400BA3406 /* keystestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keystestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D7C9AB4329CC5F8600BA3406 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D7C9AB4529CC606300BA3406 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		D7C9AB4029CC5D3F00BA3406 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
+				D7C9AB4529CC606300BA3406 /* ApiKeys.swift */,
 			);
 			path = Keys;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				D7C9AB1929CC5C9200BA3406 /* ContentView.swift in Sources */,
 				D7C9AB1729CC5C9200BA3406 /* keystestApp.swift in Sources */,
+				D7C9AB4629CC606300BA3406 /* ApiKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
